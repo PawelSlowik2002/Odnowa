@@ -1,0 +1,46 @@
+@import "_normalize";
+@import "_variables";
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+
+.controlpanel{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #413e3e;
+    height: 10%;
+    &__image{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 1%;
+        &--one{
+            padding-left: 1%;
+            padding-right: 1%;
+        }
+        &--two{
+            padding-left: 1%;
+            padding-right: 1%;
+        }
+        &--three{
+            padding-left: 1%;
+            padding-right: 1%;
+        }
+    }
+    &__range{
+        display: flex;
+        justify-content: flex-end;
+    }    
+}
+.range{
+    display: flex;
+    justify-content: flex-end;
+}
